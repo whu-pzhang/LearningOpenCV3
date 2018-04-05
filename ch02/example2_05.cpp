@@ -27,3 +27,10 @@ void example2_5(const cv::Mat &image)
     // Wait for the user to hit a key, windows will self destruct.
     cv::waitKey(0);
 }
+
+int main(int argc, char const *argv[])
+{
+    cv::Mat img = cv::imread(argv[1], -1);
+    example2_5(img);
+    return 0;
+}
