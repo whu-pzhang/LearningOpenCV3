@@ -1,3 +1,4 @@
+// A simple OpenCV program for playing a video file from disk
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <string>
@@ -15,7 +16,7 @@ int main(int argc, char const *argv[])
         cap >> frame;
         if (frame.empty()) break;
         imshow("Example3", frame);
-        if (waitKey(33) >= 0) break;
+        if (waitKey(17) >= 0) break;
     }
 
     return 0;

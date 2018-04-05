@@ -1,3 +1,4 @@
+// Same as Example 2-1 but employing the “using namespace” directive
 #include <opencv2/highgui/highgui.hpp>
 
 using namespace cv;

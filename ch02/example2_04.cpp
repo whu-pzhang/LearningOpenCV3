@@ -9,7 +9,7 @@ using namespace std;
 
 int g_slider_position = 0;
 // start out in single step mode
-int g_run = 1, g_dontset = 0;
+int g_run = 1, g_dontset = 0; // start out in single step mode
 cv::VideoCapture g_cap;
 
 void onTrackbarSlide(int pos, void *)
@@ -58,7 +58,7 @@ int main(int argc, char const *argv[])
             cout << "Run mode, run = " << g_run << endl;
         }
 
-        if (c == 27) break;
+        if (c == 27) break; // Esc
     }
 
     return 0;
