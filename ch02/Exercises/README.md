@@ -23,3 +23,5 @@
 
 ## 5.
 >Modify the program of Exercise 4 with a trackbar slider control from Example 2-4 so that the user can dynamically vary the pyramid downsampling reduction level by factors of between 2 and 8. You may skip writing this to disk, but you should display the results.
+
+[ex2_05.cpp](ex2_05.cpp)
